@@ -143,3 +143,58 @@
 [15-Oct-2015 11:53:44 UTC] PHP Fatal error:  Call to undefined function chroot() in /home/ubuntu/workspace/project/index.php on line 8
 [15-Oct-2015 11:53:44 UTC] PHP Stack trace:
 [15-Oct-2015 11:53:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[15-Oct-2015 14:45:24 UTC] PHP Fatal error:  Class 'controller\Playlist' not found in /home/ubuntu/workspace/project/controller/PlaylistController.php on line 13
+[15-Oct-2015 14:45:24 UTC] PHP Stack trace:
+[15-Oct-2015 14:45:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[15-Oct-2015 14:45:24 UTC] PHP   2. controller\MasterController->__construct() /home/ubuntu/workspace/project/index.php:8
+[15-Oct-2015 14:45:24 UTC] PHP   3. controller\PlaylistController->__construct() /home/ubuntu/workspace/project/controller/MasterController.php:19
+[15-Oct-2015 15:36:28 UTC] PHP Warning:  require_once(/view/PlaylistView.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/project/controller/PlaylistController.php on line 5
+[15-Oct-2015 15:36:28 UTC] PHP Stack trace:
+[15-Oct-2015 15:36:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[15-Oct-2015 15:36:28 UTC] PHP   2. require_once() /home/ubuntu/workspace/project/index.php:3
+[15-Oct-2015 15:36:28 UTC] PHP   3. require_once() /home/ubuntu/workspace/project/controller/MasterController.php:12
+[15-Oct-2015 15:36:28 UTC] PHP Fatal error:  require_once(): Failed opening required '/view/PlaylistView.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/project/controller/PlaylistController.php on line 5
+[15-Oct-2015 15:36:28 UTC] PHP Stack trace:
+[15-Oct-2015 15:36:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[15-Oct-2015 15:36:28 UTC] PHP   2. require_once() /home/ubuntu/workspace/project/index.php:3
+[15-Oct-2015 15:36:28 UTC] PHP   3. require_once() /home/ubuntu/workspace/project/controller/MasterController.php:12
+[15-Oct-2015 15:36:43 UTC] PHP Warning:  require_once(../view/PlaylistView.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/project/controller/PlaylistController.php on line 5
+[15-Oct-2015 15:36:43 UTC] PHP Stack trace:
+[15-Oct-2015 15:36:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[15-Oct-2015 15:36:43 UTC] PHP   2. require_once() /home/ubuntu/workspace/project/index.php:3
+[15-Oct-2015 15:36:43 UTC] PHP   3. require_once() /home/ubuntu/workspace/project/controller/MasterController.php:12
+[15-Oct-2015 15:36:43 UTC] PHP Fatal error:  require_once(): Failed opening required '../view/PlaylistView.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/project/controller/PlaylistController.php on line 5
+[15-Oct-2015 15:36:43 UTC] PHP Stack trace:
+[15-Oct-2015 15:36:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[15-Oct-2015 15:36:43 UTC] PHP   2. require_once() /home/ubuntu/workspace/project/index.php:3
+[15-Oct-2015 15:36:43 UTC] PHP   3. require_once() /home/ubuntu/workspace/project/controller/MasterController.php:12
+[15-Oct-2015 15:38:11 UTC] PHP Warning:  Missing argument 1 for view\PlaylistView::playlistViewHTML(), called in /home/ubuntu/workspace/project/controller/PlaylistController.php on line 30 and defined in /home/ubuntu/workspace/project/view/PlaylistView.php on line 8
+[15-Oct-2015 15:38:11 UTC] PHP Stack trace:
+[15-Oct-2015 15:38:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[15-Oct-2015 15:38:11 UTC] PHP   2. controller\MasterController->run() /home/ubuntu/workspace/project/index.php:9
+[15-Oct-2015 15:38:11 UTC] PHP   3. controller\PlaylistController->playlistAction() /home/ubuntu/workspace/project/controller/MasterController.php:30
+[15-Oct-2015 15:38:11 UTC] PHP   4. view\PlaylistView->playlistViewHTML() /home/ubuntu/workspace/project/controller/PlaylistController.php:30
+[15-Oct-2015 15:38:11 UTC] PHP Notice:  Undefined variable: playlists in /home/ubuntu/workspace/project/view/PlaylistView.php on line 11
+[15-Oct-2015 15:38:11 UTC] PHP Stack trace:
+[15-Oct-2015 15:38:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[15-Oct-2015 15:38:11 UTC] PHP   2. controller\MasterController->run() /home/ubuntu/workspace/project/index.php:9
+[15-Oct-2015 15:38:11 UTC] PHP   3. controller\PlaylistController->playlistAction() /home/ubuntu/workspace/project/controller/MasterController.php:30
+[15-Oct-2015 15:38:11 UTC] PHP   4. view\PlaylistView->playlistViewHTML() /home/ubuntu/workspace/project/controller/PlaylistController.php:30
+[15-Oct-2015 15:38:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/project/view/PlaylistView.php on line 11
+[15-Oct-2015 15:38:11 UTC] PHP Stack trace:
+[15-Oct-2015 15:38:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[15-Oct-2015 15:38:11 UTC] PHP   2. controller\MasterController->run() /home/ubuntu/workspace/project/index.php:9
+[15-Oct-2015 15:38:11 UTC] PHP   3. controller\PlaylistController->playlistAction() /home/ubuntu/workspace/project/controller/MasterController.php:30
+[15-Oct-2015 15:38:11 UTC] PHP   4. view\PlaylistView->playlistViewHTML() /home/ubuntu/workspace/project/controller/PlaylistController.php:30
+[15-Oct-2015 15:38:58 UTC] PHP Catchable fatal error:  Object of class model\Playlist could not be converted to string in /home/ubuntu/workspace/project/view/PlaylistView.php on line 13
+[15-Oct-2015 15:38:58 UTC] PHP Stack trace:
+[15-Oct-2015 15:38:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[15-Oct-2015 15:38:58 UTC] PHP   2. controller\MasterController->run() /home/ubuntu/workspace/project/index.php:9
+[15-Oct-2015 15:38:58 UTC] PHP   3. controller\PlaylistController->playlistAction() /home/ubuntu/workspace/project/controller/MasterController.php:30
+[15-Oct-2015 15:38:58 UTC] PHP   4. view\PlaylistView->playlistViewHTML() /home/ubuntu/workspace/project/controller/PlaylistController.php:30
+[15-Oct-2015 15:39:06 UTC] PHP Fatal error:  Call to undefined method model\Playlist::getName() in /home/ubuntu/workspace/project/view/PlaylistView.php on line 13
+[15-Oct-2015 15:39:06 UTC] PHP Stack trace:
+[15-Oct-2015 15:39:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[15-Oct-2015 15:39:06 UTC] PHP   2. controller\MasterController->run() /home/ubuntu/workspace/project/index.php:9
+[15-Oct-2015 15:39:06 UTC] PHP   3. controller\PlaylistController->playlistAction() /home/ubuntu/workspace/project/controller/MasterController.php:30
+[15-Oct-2015 15:39:06 UTC] PHP   4. view\PlaylistView->playlistViewHTML() /home/ubuntu/workspace/project/controller/PlaylistController.php:30

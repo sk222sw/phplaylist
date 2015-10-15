@@ -2,6 +2,8 @@
 
 namespace view;
 
+// CLASS RESPONSIBILITY:
+// view for adding playlist HTML
 class AddPlaylistView {
     public function playlistInputHTML() {
         return '

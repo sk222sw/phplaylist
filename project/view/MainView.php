@@ -2,6 +2,8 @@
 
 namespace view;
 
+// CLASS RESPONSIBILITY:
+// gather other views and echo it to the DOM
 class MainView {
     
     public function renderPage($content) {

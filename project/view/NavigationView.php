@@ -2,6 +2,8 @@
 
 namespace view;
 
+// CLASS RESPONSIBILITY:
+// handling routes and url query strings
 class NavigationView {
     
     // route names

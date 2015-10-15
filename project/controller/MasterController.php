@@ -26,8 +26,10 @@ class MasterController {
         
         if ($this->navigationView->clickedPlaylists()) {
             $playlistController = new \controller\PlaylistController();
+            
+            $content = $playlistController->playlistAction();
     
-            $content = $addPlaylistView->playlistInputHTML();
+            // $content = $addPlaylistView->playlistInputHTML();
         } else {
             $content = "<h1>Yo!</h1>";
         }
