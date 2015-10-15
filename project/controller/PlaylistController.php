@@ -2,7 +2,7 @@
 
 namespace controller;
 
-require_once("view/PlaylistView.php");
+require_once("project/view/PlaylistView.php");
 
 class PlaylistController {
     

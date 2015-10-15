@@ -30,7 +30,7 @@ class MainView {
     private function navigationHTML() {
         echo '
             <a href="?playlists">Playlists</a>
-            <a href="/project/">Home</a>
+            <a href="/index.php">Home</a>
         ';
     }
     

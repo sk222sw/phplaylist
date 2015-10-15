@@ -3,11 +3,11 @@
 namespace controller;
 
 //req views
-require_once("view/MainView.php");
-require_once("view/AddPlaylistView.php");
-require_once("view/NavigationView.php");
+require_once("project/view/MainView.php");
+require_once("project/view/AddPlaylistView.php");
+require_once("project/view/NavigationView.php");
 //req models
-require_once("model/Playlist.php");
+require_once("project/model/Playlist.php");
 //req controllers
 require_once("PlaylistController.php");
 
