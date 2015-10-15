@@ -27,8 +27,8 @@ class MainView {
     
     private function navigationHTML() {
         echo '
-            <a href="#">Playlists</a>
-            <a href="#">Home</a>
+            <a href="?playlists">Playlists</a>
+            <a href="/project/">Home</a>
         ';
     }
     

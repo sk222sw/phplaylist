@@ -128,3 +128,18 @@
 [15-Oct-2015 11:31:49 UTC] PHP Stack trace:
 [15-Oct-2015 11:31:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
 [15-Oct-2015 11:31:49 UTC] PHP   2. controller\MasterController->run() /home/ubuntu/workspace/project/index.php:9
+[15-Oct-2015 11:53:11 UTC] PHP Fatal error:  Call to undefined function chroot() in /home/ubuntu/workspace/project/index.php on line 8
+[15-Oct-2015 11:53:11 UTC] PHP Stack trace:
+[15-Oct-2015 11:53:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[15-Oct-2015 11:53:14 UTC] PHP Fatal error:  Call to undefined function chroot() in /home/ubuntu/workspace/project/index.php on line 8
+[15-Oct-2015 11:53:14 UTC] PHP Stack trace:
+[15-Oct-2015 11:53:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[15-Oct-2015 11:53:27 UTC] PHP Fatal error:  Call to undefined function chroot() in /home/ubuntu/workspace/project/index.php on line 8
+[15-Oct-2015 11:53:27 UTC] PHP Stack trace:
+[15-Oct-2015 11:53:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[15-Oct-2015 11:53:31 UTC] PHP Fatal error:  Call to undefined function chroot() in /home/ubuntu/workspace/project/index.php on line 8
+[15-Oct-2015 11:53:31 UTC] PHP Stack trace:
+[15-Oct-2015 11:53:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[15-Oct-2015 11:53:44 UTC] PHP Fatal error:  Call to undefined function chroot() in /home/ubuntu/workspace/project/index.php on line 8
+[15-Oct-2015 11:53:44 UTC] PHP Stack trace:
+[15-Oct-2015 11:53:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
