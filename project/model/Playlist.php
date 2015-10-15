@@ -3,6 +3,7 @@
 namespace model;
 
 class Playlist {
+    
     private $title;
 
     public function __construct($title) {

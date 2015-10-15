@@ -59,3 +59,72 @@
 [15-Oct-2015 10:13:11 UTC] PHP Stack trace:
 [15-Oct-2015 10:13:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
 [15-Oct-2015 10:13:11 UTC] PHP   2. require_once() /home/ubuntu/workspace/project/index.php:3
+[15-Oct-2015 11:27:33 UTC] PHP Fatal error:  Multiple access type modifiers are not allowed in /home/ubuntu/workspace/project/model/Playlist.php on line 10
+[15-Oct-2015 11:27:33 UTC] PHP Stack trace:
+[15-Oct-2015 11:27:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[15-Oct-2015 11:27:33 UTC] PHP   2. require_once() /home/ubuntu/workspace/project/index.php:3
+[15-Oct-2015 11:27:50 UTC] PHP Fatal error:  Class 'view\PlaylistView' not found in /home/ubuntu/workspace/project/controller/MasterController.php on line 22
+[15-Oct-2015 11:27:50 UTC] PHP Stack trace:
+[15-Oct-2015 11:27:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[15-Oct-2015 11:27:50 UTC] PHP   2. controller\MasterController->run() /home/ubuntu/workspace/project/index.php:9
+[15-Oct-2015 11:28:19 UTC] PHP Fatal error:  Class 'view\PlaylistView' not found in /home/ubuntu/workspace/project/controller/MasterController.php on line 23
+[15-Oct-2015 11:28:19 UTC] PHP Stack trace:
+[15-Oct-2015 11:28:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[15-Oct-2015 11:28:19 UTC] PHP   2. controller\MasterController->run() /home/ubuntu/workspace/project/index.php:9
+[15-Oct-2015 11:28:20 UTC] PHP Fatal error:  Class 'view\PlaylistView' not found in /home/ubuntu/workspace/project/controller/MasterController.php on line 23
+[15-Oct-2015 11:28:20 UTC] PHP Stack trace:
+[15-Oct-2015 11:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[15-Oct-2015 11:28:20 UTC] PHP   2. controller\MasterController->run() /home/ubuntu/workspace/project/index.php:9
+[15-Oct-2015 11:28:31 UTC] PHP Fatal error:  Class 'view\AddPlaylistView' not found in /home/ubuntu/workspace/project/controller/MasterController.php on line 23
+[15-Oct-2015 11:28:31 UTC] PHP Stack trace:
+[15-Oct-2015 11:28:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[15-Oct-2015 11:28:31 UTC] PHP   2. controller\MasterController->run() /home/ubuntu/workspace/project/index.php:9
+[15-Oct-2015 11:28:48 UTC] PHP Fatal error:  Class 'controller\view\AddPlaylistView' not found in /home/ubuntu/workspace/project/controller/MasterController.php on line 23
+[15-Oct-2015 11:28:48 UTC] PHP Stack trace:
+[15-Oct-2015 11:28:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[15-Oct-2015 11:28:48 UTC] PHP   2. controller\MasterController->run() /home/ubuntu/workspace/project/index.php:9
+[15-Oct-2015 11:28:51 UTC] PHP Fatal error:  Class 'view\AddPlaylistView' not found in /home/ubuntu/workspace/project/controller/MasterController.php on line 23
+[15-Oct-2015 11:28:51 UTC] PHP Stack trace:
+[15-Oct-2015 11:28:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[15-Oct-2015 11:28:51 UTC] PHP   2. controller\MasterController->run() /home/ubuntu/workspace/project/index.php:9
+[15-Oct-2015 11:29:05 UTC] PHP Warning:  require_once(/view/AddPlaylistView.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/project/controller/MasterController.php on line 7
+[15-Oct-2015 11:29:05 UTC] PHP Stack trace:
+[15-Oct-2015 11:29:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[15-Oct-2015 11:29:05 UTC] PHP   2. require_once() /home/ubuntu/workspace/project/index.php:3
+[15-Oct-2015 11:29:05 UTC] PHP Fatal error:  require_once(): Failed opening required '/view/AddPlaylistView.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/project/controller/MasterController.php on line 7
+[15-Oct-2015 11:29:05 UTC] PHP Stack trace:
+[15-Oct-2015 11:29:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[15-Oct-2015 11:29:05 UTC] PHP   2. require_once() /home/ubuntu/workspace/project/index.php:3
+[15-Oct-2015 11:29:11 UTC] PHP Warning:  require_once(../view/AddPlaylistView.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/project/controller/MasterController.php on line 7
+[15-Oct-2015 11:29:11 UTC] PHP Stack trace:
+[15-Oct-2015 11:29:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[15-Oct-2015 11:29:11 UTC] PHP   2. require_once() /home/ubuntu/workspace/project/index.php:3
+[15-Oct-2015 11:29:11 UTC] PHP Fatal error:  require_once(): Failed opening required '../view/AddPlaylistView.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/project/controller/MasterController.php on line 7
+[15-Oct-2015 11:29:11 UTC] PHP Stack trace:
+[15-Oct-2015 11:29:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[15-Oct-2015 11:29:11 UTC] PHP   2. require_once() /home/ubuntu/workspace/project/index.php:3
+[15-Oct-2015 11:30:34 UTC] PHP Fatal error:  Class 'view\AddPlaylistView' not found in /home/ubuntu/workspace/project/controller/MasterController.php on line 23
+[15-Oct-2015 11:30:34 UTC] PHP Stack trace:
+[15-Oct-2015 11:30:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[15-Oct-2015 11:30:34 UTC] PHP   2. controller\MasterController->run() /home/ubuntu/workspace/project/index.php:9
+[15-Oct-2015 11:30:50 UTC] PHP Notice:  Undefined variable: addPlaylistView in /home/ubuntu/workspace/project/controller/MasterController.php on line 25
+[15-Oct-2015 11:30:50 UTC] PHP Stack trace:
+[15-Oct-2015 11:30:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[15-Oct-2015 11:30:50 UTC] PHP   2. controller\MasterController->run() /home/ubuntu/workspace/project/index.php:9
+[15-Oct-2015 11:30:50 UTC] PHP Fatal error:  Call to a member function playlistInputHTML() on a non-object in /home/ubuntu/workspace/project/controller/MasterController.php on line 25
+[15-Oct-2015 11:30:50 UTC] PHP Stack trace:
+[15-Oct-2015 11:30:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[15-Oct-2015 11:30:50 UTC] PHP   2. controller\MasterController->run() /home/ubuntu/workspace/project/index.php:9
+[15-Oct-2015 11:31:22 UTC] PHP Parse error:  syntax error, unexpected '$mainView' (T_VARIABLE) in /home/ubuntu/workspace/project/controller/MasterController.php on line 27
+[15-Oct-2015 11:31:22 UTC] PHP Stack trace:
+[15-Oct-2015 11:31:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[15-Oct-2015 11:31:30 UTC] PHP Parse error:  syntax error, unexpected '$mainView' (T_VARIABLE) in /home/ubuntu/workspace/project/controller/MasterController.php on line 27
+[15-Oct-2015 11:31:30 UTC] PHP Stack trace:
+[15-Oct-2015 11:31:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[15-Oct-2015 11:31:31 UTC] PHP Parse error:  syntax error, unexpected '$mainView' (T_VARIABLE) in /home/ubuntu/workspace/project/controller/MasterController.php on line 27
+[15-Oct-2015 11:31:31 UTC] PHP Stack trace:
+[15-Oct-2015 11:31:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[15-Oct-2015 11:31:49 UTC] PHP Fatal error:  Class 'view\AddPlaylistView' not found in /home/ubuntu/workspace/project/controller/MasterController.php on line 23
+[15-Oct-2015 11:31:49 UTC] PHP Stack trace:
+[15-Oct-2015 11:31:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[15-Oct-2015 11:31:49 UTC] PHP   2. controller\MasterController->run() /home/ubuntu/workspace/project/index.php:9

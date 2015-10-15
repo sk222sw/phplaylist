@@ -4,7 +4,7 @@ namespace view;
 
 class MainView {
     
-    public function renderPage($playlistTitle) {
+    public function renderPage($content) {
         echo '
             <!DOCTYPE html>
             <html>
@@ -14,7 +14,7 @@ class MainView {
             <body>
                 ' . $this->headerHTML() . '
                 ' . $this->navigationHTML() . '
-                ' . $this->contentHTML($playlistTitle) . '
+                ' . $this->contentHTML($content) . '
             </body>
             </html>
         ';
@@ -32,9 +32,7 @@ class MainView {
         ';
     }
     
-    private function contentHTML($playlistTitle) {
-        echo '
-            <h2> '.$playlistTitle.'</h2>
-        ';
+    private function contentHTML($content) {
+        echo $content;
     }
 }
