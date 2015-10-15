@@ -1,0 +1,61 @@
+[14-Oct-2015 19:15:54 UTC] PHP Warning:  require_once(controller/MaterController.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/project/index.php on line 3
+[14-Oct-2015 19:15:54 UTC] PHP Stack trace:
+[14-Oct-2015 19:15:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[14-Oct-2015 19:15:54 UTC] PHP Fatal error:  require_once(): Failed opening required 'controller/MaterController.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/project/index.php on line 3
+[14-Oct-2015 19:15:54 UTC] PHP Stack trace:
+[14-Oct-2015 19:15:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[14-Oct-2015 19:16:00 UTC] PHP Fatal error:  Class 'controller\MasterController' not found in /home/ubuntu/workspace/project/index.php on line 8
+[14-Oct-2015 19:16:00 UTC] PHP Stack trace:
+[14-Oct-2015 19:16:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[14-Oct-2015 19:16:52 UTC] PHP Fatal error:  Class 'controller\MasterController' not found in /home/ubuntu/workspace/project/index.php on line 8
+[14-Oct-2015 19:16:52 UTC] PHP Stack trace:
+[14-Oct-2015 19:16:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[14-Oct-2015 19:16:55 UTC] PHP Fatal error:  Class 'controller\MasterController' not found in /home/ubuntu/workspace/project/index.php on line 8
+[14-Oct-2015 19:16:55 UTC] PHP Stack trace:
+[14-Oct-2015 19:16:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[14-Oct-2015 19:17:03 UTC] PHP Fatal error:  Class 'controller\MasterController' not found in /home/ubuntu/workspace/project/index.php on line 8
+[14-Oct-2015 19:17:03 UTC] PHP Stack trace:
+[14-Oct-2015 19:17:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[14-Oct-2015 19:17:10 UTC] PHP Fatal error:  Class 'MasterController' not found in /home/ubuntu/workspace/project/index.php on line 8
+[14-Oct-2015 19:17:10 UTC] PHP Stack trace:
+[14-Oct-2015 19:17:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[14-Oct-2015 19:17:24 UTC] PHP Fatal error:  Class 'MasterController' not found in /home/ubuntu/workspace/project/index.php on line 8
+[14-Oct-2015 19:17:24 UTC] PHP Stack trace:
+[14-Oct-2015 19:17:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[14-Oct-2015 19:17:25 UTC] PHP Fatal error:  Class 'MasterController' not found in /home/ubuntu/workspace/project/index.php on line 8
+[14-Oct-2015 19:17:25 UTC] PHP Stack trace:
+[14-Oct-2015 19:17:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[14-Oct-2015 19:18:01 UTC] PHP Fatal error:  Class 'controller\MasterController' not found in /home/ubuntu/workspace/project/index.php on line 8
+[14-Oct-2015 19:18:01 UTC] PHP Stack trace:
+[14-Oct-2015 19:18:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[14-Oct-2015 20:03:38 UTC] PHP Fatal error:  Class 'view\MainView' not found in /home/ubuntu/workspace/project/controller/MasterController.php on line 15
+[14-Oct-2015 20:03:38 UTC] PHP Stack trace:
+[14-Oct-2015 20:03:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[14-Oct-2015 20:03:38 UTC] PHP   2. controller\MasterController->run() /home/ubuntu/workspace/project/index.php:9
+[14-Oct-2015 20:04:02 UTC] PHP Fatal error:  Call to undefined method view\MainView::renderPage() in /home/ubuntu/workspace/project/controller/MasterController.php on line 17
+[14-Oct-2015 20:04:02 UTC] PHP Stack trace:
+[14-Oct-2015 20:04:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[14-Oct-2015 20:04:02 UTC] PHP   2. controller\MasterController->run() /home/ubuntu/workspace/project/index.php:9
+[14-Oct-2015 20:05:37 UTC] PHP Fatal error:  Call to undefined method view\MainView::renderContent() in /home/ubuntu/workspace/project/view/MainView.php on line 8
+[14-Oct-2015 20:05:37 UTC] PHP Stack trace:
+[14-Oct-2015 20:05:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[14-Oct-2015 20:05:37 UTC] PHP   2. controller\MasterController->run() /home/ubuntu/workspace/project/index.php:9
+[14-Oct-2015 20:05:37 UTC] PHP   3. view\MainView->renderPage() /home/ubuntu/workspace/project/controller/MasterController.php:17
+[14-Oct-2015 20:30:13 UTC] PHP Warning:  Missing argument 1 for model\Playlist::__construct(), called in /home/ubuntu/workspace/project/controller/MasterController.php on line 16 and defined in /home/ubuntu/workspace/project/model/Playlist.php on line 8
+[14-Oct-2015 20:30:13 UTC] PHP Stack trace:
+[14-Oct-2015 20:30:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[14-Oct-2015 20:30:13 UTC] PHP   2. controller\MasterController->run() /home/ubuntu/workspace/project/index.php:9
+[14-Oct-2015 20:30:13 UTC] PHP   3. model\Playlist->__construct() /home/ubuntu/workspace/project/controller/MasterController.php:16
+[14-Oct-2015 20:30:13 UTC] PHP Notice:  Undefined variable: title in /home/ubuntu/workspace/project/model/Playlist.php on line 9
+[14-Oct-2015 20:30:13 UTC] PHP Stack trace:
+[14-Oct-2015 20:30:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[14-Oct-2015 20:30:13 UTC] PHP   2. controller\MasterController->run() /home/ubuntu/workspace/project/index.php:9
+[14-Oct-2015 20:30:13 UTC] PHP   3. model\Playlist->__construct() /home/ubuntu/workspace/project/controller/MasterController.php:16
+[15-Oct-2015 10:13:11 UTC] PHP Warning:  require_once(view/MainView.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/project/controller/MasterController.php on line 6
+[15-Oct-2015 10:13:11 UTC] PHP Stack trace:
+[15-Oct-2015 10:13:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[15-Oct-2015 10:13:11 UTC] PHP   2. require_once() /home/ubuntu/workspace/project/index.php:3
+[15-Oct-2015 10:13:11 UTC] PHP Fatal error:  require_once(): Failed opening required 'view/MainView.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/project/controller/MasterController.php on line 6
+[15-Oct-2015 10:13:11 UTC] PHP Stack trace:
+[15-Oct-2015 10:13:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/project/index.php:0
+[15-Oct-2015 10:13:11 UTC] PHP   2. require_once() /home/ubuntu/workspace/project/index.php:3
